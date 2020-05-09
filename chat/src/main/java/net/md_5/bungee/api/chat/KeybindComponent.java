@@ -44,7 +44,7 @@ public class KeybindComponent extends BaseComponent
     }
 
     @Override
-    public BaseComponent duplicate()
+    public KeybindComponent duplicate()
     {
         return new KeybindComponent( this );
     }

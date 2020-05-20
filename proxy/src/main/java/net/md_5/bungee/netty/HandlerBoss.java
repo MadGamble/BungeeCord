@@ -111,7 +111,7 @@ public class HandlerBoss extends ChannelInboundHandlerAdapter
                 if ( sendPacket )
                 {
                     handler.handle( packet );
-                } else 
+                } else
                 {
                     if ( packet == null || packet.packet == null )
                     {

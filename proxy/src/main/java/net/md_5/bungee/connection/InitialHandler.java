@@ -109,10 +109,10 @@ public class InitialHandler extends PacketHandler implements PendingConnection
     @Override
     public boolean shouldHandle(PacketWrapper packet) throws Exception
     {
-    	if ( packet == null || packet.packet == null )
-    	{
-    		return false;
-    	}
+        if ( packet == null || packet.packet == null )
+        {
+            return false;
+        }
         return !ch.isClosing();
     }
 
